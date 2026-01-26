@@ -1,0 +1,45 @@
+body{
+    margin-left: 15%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+p{
+    font-family: Calibri;
+    color:rgb(70, 70, 70);
+    font-size: 22px;
+    line-height: 1.4;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.section{
+    font-family: Rockwell;
+    color: #51b853;
+    font-size: 18px;
+
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+h1{
+    font-family: Rockwell;
+    font-size: 40px;
+    color: #057007;
+
+    margin-bottom: 0px;
+}
+
+h2{
+    font-family: Rockwell;
+    font-weight: normal;
+    color: #057007;
+
+    margin-top: 5px;
+}
+
+.link{
+    font-size: 18px;
+    
+    margin-top: 30px;
+
+}
