@@ -1,0 +1,113 @@
+html{
+    font-family: "Archivo Narrow", sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+h1, h2, h3, h4, p{
+    margin-top: 0;
+}
+
+h1{
+    font-size: 80px;
+    line-height: 1;
+    margin-bottom: 16px;
+}
+
+h2{
+    font-size: 30px;
+    line-height: 1;
+}
+
+h3{
+    text-align: center;
+    line-height: 1;
+    font-size: 40px;
+    margin-bottom: 38px;
+}
+
+h4{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+p{
+    margin-bottom: 16px;
+}
+
+section.section3 > div{
+    font-size: 26px;
+    text-align: center;
+    width: 720px;
+    padding-bottom: 44px;
+}
+
+header{
+    /* background-color: rgba(255,0,0,0.5); */
+    background-image: url("../img/neva_background.jpg");
+    background-size: cover;
+    text-align: center;
+    padding: 166px 0 162px 0;
+}
+
+div.column{
+    /* background-color: rgba(0,255,0,0.1); */
+    width: 960px;
+    margin: auto;
+}
+
+section{
+    padding: 49px 0 39px 0;
+}
+
+section.intro{
+    background-color: rgb(10, 24, 61);
+    color:#dedbe8;
+}
+
+section.photo-grid{
+    /* background-color: rgb(241, 235, 249); */
+    background-color: rgb(249, 235, 235);
+}
+
+section.section3{
+    /* background-color: rgb(164, 197, 186); */
+    /* background-color: rgb(191, 204, 171);
+    background-color: rgb(151, 174, 109); */
+    background-color: rgb(175, 183, 101);
+}
+
+footer{
+    /* background-color: rgb(255, 255, 190); */
+    background-color: rgb(56, 58, 65);
+    padding-top: 40px;
+    padding-bottom: 24px;
+    color: #dedbe8;
+}
+
+.float-right{
+    float: right;
+    border: 1px solid #dedbe8;;
+    margin-left: 38px;
+    margin-bottom: 38px;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 24px;
+    padding-bottom: 25px;
+}
+
+li{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
+li > div{
+    padding-left: 12px;
+    padding-right: 22px;
+}
