@@ -1,0 +1,201 @@
+html{
+    font-family: "Inclusive Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    margin: 0;
+    background-color: black;
+    /* background-image: url("../img/An-image-of-couch-in-front-of-the-fountain-with-the-Friends-logo.jpg") ; */
+    background-size: cover;
+    color: white;
+}
+
+header{
+    background-color: black;
+    /* background-image: url("../img/An-image-of-couch-in-front-of-the-fountain-with-the-Friends-logo.jpg") ;
+    background-size: cover; */
+    padding: 2em;
+    /* padding: 2em 2em 45% 2em; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    /* background-color: lightskyblue; */
+    /* color: black; */
+    font-size: .8em;
+    border-top-style: solid;
+    border-top-color: #fdc829;
+}
+
+h1{
+    text-align: center;
+}
+
+h2:nth-of-type(3n-2) {
+    background-color: #ff4842;
+    width: fit-content;
+    padding: 2px 4px;
+    color: black;
+}
+
+h2:nth-of-type(3n-1) {
+    background-color:#2cd0ff;
+    width: fit-content;
+    padding: 2px 4px;
+    color: black;
+   
+}
+
+h2:nth-of-type(3n) {
+    background-color: #fdc829;
+    width: fit-content;
+    padding: 2px 4px;
+    color: black;
+}
+
+p{
+    line-height: 1.4;
+}
+
+p.pull-quote{
+    text-align: center;
+    font-size: 1.4em;
+    padding: 4em 8em;
+
+}
+
+footer p{
+    text-align: center;
+}
+
+p.dev-note{
+    color: #2cd0ff;
+}
+
+div.main-content{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 2em 6em 2em;
+}
+
+div#main-nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
+}
+
+div#main-nav ul li a{
+    color: black;
+    /* background-color: lightskyblue; */
+    background-color: #2cd0ff;
+    padding: 0 .8em;
+    display: inline-block;
+    margin: 0 10px; 
+
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    
+}
+
+div#main-nav ul li a.active{
+    /* color: lightskyblue; */
+    /* color: #f5b815; */
+    /* color: rgb(171, 138, 227); */
+    color: black;
+    background-color: #fdc829;
+    /* font-size: 1.1em; */
+}
+
+div#main-nav ul li a:hover{
+    /* border-bottom-style: solid;
+    /* border-color: rgb(255, 255, 98); */
+    /* border-color: rgb(171, 138, 227); 
+    box-shadow: 1px 0px 15px 1px #2cd0ff; */
+    /* background-color: #fdc829; */
+    background-color: #ff4842;
+
+}
+
+ul.characters{
+    list-style: none;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 2fr;
+    
+    /* margin: 0;
+    padding: 0; */
+}
+
+ul.characters li{
+    padding: 2em 0;
+}
+
+a.logo{
+    background-color: transparent;
+    /* padding: 0; */
+}
+img.logo{
+    max-width: 160px;
+    display: block;
+    margin: auto;
+}
+
+img.main-img{
+    width: 100%;
+    border-bottom: solid 8px #fdc829;
+
+}
+
+@media (max-width: 1024px) {
+    /* ipad width */
+    div.main-content{
+        padding: 0 2rem;
+    }
+
+    /*I don't know how to drop down menu
+     div#main-nav ul{
+        position: relative;
+    } */
+
+    p.pull-quote{
+    padding: 2em;
+
+}
+}
+
+@media (max-width: 800px){
+    /* intermediate sizing for grids */
+    ul.characters{
+    list-style: none;
+    display: block;
+    
+    margin: 0;
+    padding: 0;
+}
+
+ul.characters li{
+    padding: 1em 0;
+}
+}
+
+@media (max-width: 430px) {
+    /* phone width */
+    div.main-content{
+        padding: 0 1rem;
+    }
+
+    p.pull-quote{
+    padding: 1em;
+    }
+}
